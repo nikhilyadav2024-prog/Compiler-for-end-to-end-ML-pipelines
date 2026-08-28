@@ -1,0 +1,5 @@
+pipeline broken_example {
+    load data "customer.csv"
+
+    train;
+}
