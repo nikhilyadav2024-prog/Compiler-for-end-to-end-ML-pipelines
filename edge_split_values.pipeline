@@ -1,0 +1,5 @@
+pipeline edge_case_split {
+    load data "data.csv";
+    split train 100 test 0;
+    train;
+}

@@ -1,0 +1,5 @@
+pipeline bad_split_example {
+    load data "customer.csv";
+    split train 70 test 50;
+    train;
+}

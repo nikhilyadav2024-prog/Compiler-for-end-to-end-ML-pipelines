@@ -1,0 +1,8 @@
+pipeline unknown_model_example {
+    load data "customer.csv";
+    split train 80 test 20;
+    model gradient_boost {
+        trees = 50;
+    }
+    train;
+}
